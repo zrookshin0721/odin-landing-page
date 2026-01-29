@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding/border are included in element's total width/height */
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header, .section-about, .footer {
+  background-color: #1f2937;
+  color: white;
+
+}
+
+.header {
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 15px 70px;
+}
+
+.section-about {
+  display: flex;
+  align-items: flex-start; /* Aligns items to the top of the container */
+  gap: 40px;
+  padding: 70px; /*same padding to align header w/ hero */
+
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-text h1 {
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  margin-bottom: 12px;
+}
+
+.learnmore-button {
+  padding: 9px 15px;
+  background-color: #3882f6;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.group-pic {
+  max-width: 30%;
+  max-height: auto;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
