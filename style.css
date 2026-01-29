@@ -1,3 +1,8 @@
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +10,11 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .header, .section-about, .footer {
@@ -55,6 +63,88 @@ body{
   max-height: auto;
   align-self: center;
 }
+
+.section-members h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card .headshot{
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  padding: 45px 0px;
+  width: 150px;
+  margin-bottom: 10px;
+  
+}
+
+.member-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:25px;
+  margin-bottom: 60px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 65px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-section p {
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-section h3 {
+  align-self: flex-end;
+}
+
+.signup-section {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-container {
+  background-color: #3882f6;
+  color: white;
+  
+  padding: 30px 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+
+  max-width: 1000px;
+  margin: 0;
+}
+
+.signup-button {
+  padding: 0px 25px;
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0px;
+  font-weight: 100;
+}
+
 
 
 
